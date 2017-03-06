@@ -19,6 +19,7 @@ class MasterViewController: UITableViewController {
         let addButton = UIBarButtonItem(barButtonSystemItem: .add, target: self, action: #selector(insertNewObject(_:)))
         navigationItem.rightBarButtonItem = addButton
         clearsSelectionOnViewWillAppear = true
+        navigationController?.navigationBar.isHidden = false
         print("\(type(of: self)) - View Did Load")
     }
     

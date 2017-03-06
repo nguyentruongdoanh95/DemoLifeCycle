@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		FF615C861E6D62B100551E42 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF615C851E6D62B100551E42 /* AppDelegate.swift */; };
-		FF615C881E6D62B100551E42 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF615C871E6D62B100551E42 /* ViewController.swift */; };
+		FF615C881E6D62B100551E42 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF615C871E6D62B100551E42 /* MasterViewController.swift */; };
 		FF615C8B1E6D62B100551E42 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF615C891E6D62B100551E42 /* Main.storyboard */; };
 		FF615C8E1E6D62B100551E42 /* DemoLifeCycle.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = FF615C8C1E6D62B100551E42 /* DemoLifeCycle.xcdatamodeld */; };
 		FF615C901E6D62B100551E42 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FF615C8F1E6D62B100551E42 /* Assets.xcassets */; };
 		FF615C931E6D62B100551E42 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FF615C911E6D62B100551E42 /* LaunchScreen.storyboard */; };
 		FF615C9E1E6D62B100551E42 /* DemoLifeCycleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF615C9D1E6D62B100551E42 /* DemoLifeCycleTests.swift */; };
 		FF615CA91E6D62B100551E42 /* DemoLifeCycleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF615CA81E6D62B100551E42 /* DemoLifeCycleUITests.swift */; };
+		FF707D891E6D6D4400F84F8E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF707D881E6D6D4400F84F8E /* DetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +38,7 @@
 /* Begin PBXFileReference section */
 		FF615C821E6D62B100551E42 /* DemoLifeCycle.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DemoLifeCycle.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF615C851E6D62B100551E42 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FF615C871E6D62B100551E42 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FF615C871E6D62B100551E42 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		FF615C8A1E6D62B100551E42 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FF615C8D1E6D62B100551E42 /* DemoLifeCycle.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DemoLifeCycle.xcdatamodel; sourceTree = "<group>"; };
 		FF615C8F1E6D62B100551E42 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -49,6 +50,7 @@
 		FF615CA41E6D62B100551E42 /* DemoLifeCycleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DemoLifeCycleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FF615CA81E6D62B100551E42 /* DemoLifeCycleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DemoLifeCycleUITests.swift; sourceTree = "<group>"; };
 		FF615CAA1E6D62B100551E42 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FF707D881E6D6D4400F84F8E /* DetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +102,8 @@
 			isa = PBXGroup;
 			children = (
 				FF615C851E6D62B100551E42 /* AppDelegate.swift */,
-				FF615C871E6D62B100551E42 /* ViewController.swift */,
+				FF615C871E6D62B100551E42 /* MasterViewController.swift */,
+				FF707D881E6D6D4400F84F8E /* DetailsViewController.swift */,
 				FF615C891E6D62B100551E42 /* Main.storyboard */,
 				FF615C8F1E6D62B100551E42 /* Assets.xcassets */,
 				FF615C911E6D62B100551E42 /* LaunchScreen.storyboard */,
@@ -265,9 +268,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FF615C881E6D62B100551E42 /* ViewController.swift in Sources */,
+				FF615C881E6D62B100551E42 /* MasterViewController.swift in Sources */,
 				FF615C8E1E6D62B100551E42 /* DemoLifeCycle.xcdatamodeld in Sources */,
 				FF615C861E6D62B100551E42 /* AppDelegate.swift in Sources */,
+				FF707D891E6D6D4400F84F8E /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +524,7 @@
 				FF615CAF1E6D62B100551E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF615CB01E6D62B100551E42 /* Build configuration list for PBXNativeTarget "DemoLifeCycleTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +533,7 @@
 				FF615CB21E6D62B100551E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FF615CB31E6D62B100551E42 /* Build configuration list for PBXNativeTarget "DemoLifeCycleUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +542,7 @@
 				FF615CB51E6D62B100551E42 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
